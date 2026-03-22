@@ -1,0 +1,78 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://api2.openreview.net
+  venue_id: ICLR.cc/2024/Conference
+  local_data_file: artifacts/data_ingestion/data.csv
+
+data_validation:
+  root_dir: artifacts/data_validation
+  data_path: artifacts/data_ingestion/data.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+generalizer:
+  root_dir: artifacts/generalizer
+  data_path: artifacts/data_ingestion/data.csv
+  abstract_column: abstract
+  pdf_url_column: pdf_url
+  paper_id: null
+  row_index: 0
+  abstract_fallback_to_csv: true
+  generalizer_model: deepseek-ai/DeepSeek-R1
+  max_tokens: 1000
+  temperature: 0.7
+  output_file: artifacts/generalizer/problem_statement.txt
+  reference_solution_file: artifacts/generalizer/reference_solution.txt
+
+solver:
+  root_dir: artifacts/solver
+  data_path: artifacts/generalizer/problem_statement.txt
+  solver_model: deepseek-ai/DeepSeek-R1
+  max_tokens: 1000
+  temperature: 0.7
+  output_file: artifacts/solver/solution.txt
+
+internal_critique:
+  root_dir: artifacts/internal_critique
+  abstract_path: artifacts/generalizer/problem_statement.txt
+  solution_path: artifacts/solver/solution.txt
+  internal_critique_model: deepseek-ai/DeepSeek-R1
+  max_tokens: 1000
+  temperature: 0.7
+  internal_critique_threshold: 8
+  output_file: artifacts/internal_critique/internal_status.txt
+
+external_critique:
+  root_dir: artifacts/external_critique
+  abstract_path: artifacts/generalizer/problem_statement.txt
+  solution_path: artifacts/solver/solution.txt
+  external_critique_model: deepseek-ai/DeepSeek-R1
+  max_tokens: 1000
+  temperature: 0.7
+  external_critique_threshold: 8
+  output_file: artifacts/external_critique/external_status.txt
+  internal_critique_status: artifacts/internal_critique/internal_status.txt
+
+evaluation:
+  root_dir: artifacts/evaluation
+  problem_statement_path: artifacts/generalizer/problem_statement.txt
+  generated_solution_path: artifacts/solver/solution.txt
+  reference_solution_path: artifacts/generalizer/reference_solution.txt
+  internal_status_path: artifacts/internal_critique/internal_status.txt
+  external_status_path: artifacts/external_critique/external_status.txt
+  evaluation_model: deepseek-ai/DeepSeek-R1
+  evaluation_model_secondary: deepseek-ai/DeepSeek-R1
+  max_tokens: 1000
+  temperature: 0.3
+  output_file: artifacts/evaluation/evaluation.txt
+  results_csv: artifacts/evaluation/evaluation_results.csv
+  summary_csv: artifacts/evaluation/evaluation_summary.csv
+  tier_summary_csv: artifacts/evaluation/evaluation_tier_summary.csv
+  baseline_results_csv: artifacts/evaluation/baseline_results.csv
+  baseline_summary_csv: artifacts/evaluation/baseline_summary.csv
+  plots_dir: artifacts/evaluation/plots
+  overall_table_md: artifacts/evaluation/overall_results_table.md
+  tier_table_md: artifacts/evaluation/tier_results_table.md
+  baseline_table_md: artifacts/evaluation/baseline_results_table.md
+  experiment_report_md: artifacts/evaluation/experiment_report.md

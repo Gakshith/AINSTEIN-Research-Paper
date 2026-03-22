@@ -1,0 +1,1233 @@
+[2026-03-12 21:04:04,991: INFO: main: Hello World]
+[2026-03-15 23:08:31,442: INFO: main: Hello World]
+[2026-03-15 23:14:29,467: INFO: main: Hello World]
+[2026-03-15 23:15:09,961: INFO: main: Dataset created successfully]
+[2026-03-15 23:16:04,355: INFO: main: Hello World]
+[2026-03-15 23:38:28,133: INFO: main: Hello World]
+[2026-03-15 23:39:36,131: INFO: main: Hello World]
+[2026-03-15 23:44:18,416: INFO: main: Starting dataset collection]
+[2026-03-15 23:44:49,990: INFO: main: Accepted dataset created successfully]
+[2026-03-15 23:46:40,893: INFO: main: Starting dataset collection]
+[2026-03-15 23:46:42,248: INFO: main: Accepted dataset created successfully]
+[2026-03-15 23:49:57,985: INFO: main: Starting curated dataset collection]
+[2026-03-15 23:49:59,635: INFO: main: Curated dataset created successfully]
+[2026-03-16 00:15:47,106: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:15:47,108: INFO: common: created directory at: artifacts]
+[2026-03-16 00:15:47,110: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:24:15,823: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:24:15,825: INFO: common: created directory at: artifacts]
+[2026-03-16 00:24:15,826: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:29:08,088: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:29:08,089: INFO: common: created directory at: artifacts]
+[2026-03-16 00:29:08,090: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:29:08,091: INFO: 1975593602: Starting curated dataset collection]
+[2026-03-16 00:30:15,549: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:30:15,552: INFO: common: created directory at: artifacts]
+[2026-03-16 00:30:15,552: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:30:15,553: INFO: 3452784490: Starting downloading dataset]
+[2026-03-16 00:32:12,166: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:32:12,168: INFO: common: created directory at: artifacts]
+[2026-03-16 00:32:12,169: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:32:12,169: INFO: 2964407919: Starting downloading dataset]
+[2026-03-16 00:32:14,677: INFO: 2964407919: Curated dataset size: 1214]
+[2026-03-16 00:32:14,682: INFO: 2964407919: 
+tier
+Poster       622
+Spotlight    379
+Oral         213
+Name: count, dtype: int64]
+[2026-03-16 00:32:14,757: INFO: 2964407919: Curated dataset created successfully at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:35:07,888: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:35:07,889: INFO: common: created directory at: artifacts]
+[2026-03-16 00:35:07,890: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:35:07,890: INFO: 405635955: Starting downloading dataset]
+[2026-03-16 00:35:25,987: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:35:25,988: INFO: common: created directory at: artifacts]
+[2026-03-16 00:35:25,989: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:35:25,990: INFO: 405635955: Starting downloading dataset]
+[2026-03-16 00:36:24,635: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:36:24,637: INFO: common: created directory at: artifacts]
+[2026-03-16 00:36:24,637: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:36:24,638: INFO: 1050980469: Starting downloading dataset]
+[2026-03-16 00:36:45,666: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:36:45,667: INFO: common: created directory at: artifacts]
+[2026-03-16 00:36:45,668: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:36:45,668: INFO: 1050980469: Starting downloading dataset]
+[2026-03-16 00:38:00,853: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:38:00,855: INFO: common: created directory at: artifacts]
+[2026-03-16 00:38:00,856: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:38:00,856: INFO: 2443990797: Starting downloading dataset]
+[2026-03-16 00:38:02,092: INFO: 2443990797: dataset downloaded successfully at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:40:28,060: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:40:28,062: INFO: common: created directory at: artifacts]
+[2026-03-16 00:40:28,063: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:40:28,063: INFO: 2511635817: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:40:31,433: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:40:31,434: INFO: common: created directory at: artifacts]
+[2026-03-16 00:40:31,435: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:40:31,436: INFO: 2511635817: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:41:59,475: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:41:59,477: INFO: common: created directory at: artifacts]
+[2026-03-16 00:41:59,478: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:41:59,478: INFO: 342630268: Starting downloading dataset]
+[2026-03-16 00:42:02,146: INFO: 342630268: dataset downloaded successfully at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:42:02,147: INFO: 342630268: dataset size: ~ 1842 KB]
+[2026-03-16 00:43:29,692: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:43:29,693: INFO: common: created directory at: artifacts]
+[2026-03-16 00:43:29,694: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:43:29,694: INFO: 342630268: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:43:30,115: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:43:30,116: INFO: common: created directory at: artifacts]
+[2026-03-16 00:43:30,116: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:43:30,117: INFO: 342630268: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:43:30,669: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:43:30,670: INFO: common: created directory at: artifacts]
+[2026-03-16 00:43:30,671: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:43:30,672: INFO: 342630268: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:43:36,147: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:43:36,148: INFO: common: created directory at: artifacts]
+[2026-03-16 00:43:36,149: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:43:36,150: INFO: 342630268: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 00:43:41,230: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 00:43:41,232: INFO: common: created directory at: artifacts]
+[2026-03-16 00:43:41,233: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 00:43:41,233: INFO: 342630268: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 01:03:01,051: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-16 01:03:01,052: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 01:03:01,053: INFO: common: created directory at: artifacts]
+[2026-03-16 01:03:01,053: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 01:03:01,053: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-16 01:03:01,053: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-16 01:03:23,292: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-16 01:03:23,292: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 01:03:23,293: INFO: common: created directory at: artifacts]
+[2026-03-16 01:03:23,293: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-16 01:03:23,293: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-16 01:03:24,855: INFO: data_ingestion: dataset downloaded successfully at: artifacts/data_ingestion/data.csv]
+[2026-03-16 01:03:24,855: INFO: data_ingestion: dataset size: ~ 1842 KB]
+[2026-03-16 01:03:24,863: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-16 01:32:57,463: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 01:32:57,466: INFO: common: created directory at: artifacts]
+[2026-03-16 01:32:57,466: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-16 01:32:57,467: INFO: 3406415138: Reading dataset]
+[2026-03-16 01:32:57,510: INFO: 3406415138: Extracting introduction from PDFs]
+[2026-03-16 01:34:46,354: WARNING: 3406415138: Failed for https://openreview.net/pdf/a1588e1364d95a4e90a4ec5a419f87ed7f2e8666.pdf: ('Connection broken: IncompleteRead(1338855 bytes read, 2151487 more expected)', IncompleteRead(1338855 bytes read, 2151487 more expected))]
+[2026-03-16 01:37:07,455: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 01:37:07,456: INFO: common: created directory at: artifacts]
+[2026-03-16 01:37:07,457: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-16 01:37:07,458: INFO: 90674169: Reading dataset]
+[2026-03-16 01:37:07,498: INFO: 90674169: Extracting introduction from PDFs]
+[2026-03-16 01:38:14,669: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-16 01:38:14,670: INFO: common: created directory at: artifacts]
+[2026-03-16 01:38:14,671: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-16 01:38:14,671: INFO: 2787771594: Reading dataset]
+[2026-03-16 01:38:14,698: INFO: 2787771594: Extracting introduction from PDFs]
+[2026-03-17 19:04:24,702: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 19:04:24,705: INFO: common: created directory at: artifacts]
+[2026-03-17 19:04:24,706: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-17 19:04:24,707: INFO: 832439531: Reading dataset]
+[2026-03-17 19:04:24,801: INFO: 832439531: Extracting introduction from PDFs]
+[2026-03-17 19:04:24,806: INFO: 832439531: Processing 1/1214]
+[2026-03-17 19:04:25,168: WARNING: 832439531: Attempt 1 failed for https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf]
+[2026-03-17 19:04:28,391: WARNING: 832439531: Attempt 2 failed for https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf]
+[2026-03-17 19:04:31,620: WARNING: 832439531: Attempt 3 failed for https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf]
+[2026-03-17 19:04:35,630: INFO: 832439531: Processing 2/1214]
+[2026-03-17 19:04:35,851: WARNING: 832439531: Attempt 1 failed for https://openreview.net/pdf/7de864552f0638515d915497f208b6f5185bb64b.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/7de864552f0638515d915497f208b6f5185bb64b.pdf]
+[2026-03-17 19:04:39,050: WARNING: 832439531: Attempt 2 failed for https://openreview.net/pdf/7de864552f0638515d915497f208b6f5185bb64b.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/7de864552f0638515d915497f208b6f5185bb64b.pdf]
+[2026-03-17 19:04:42,280: WARNING: 832439531: Attempt 3 failed for https://openreview.net/pdf/7de864552f0638515d915497f208b6f5185bb64b.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/7de864552f0638515d915497f208b6f5185bb64b.pdf]
+[2026-03-17 19:04:46,301: INFO: 832439531: Processing 3/1214]
+[2026-03-17 19:04:46,497: WARNING: 832439531: Attempt 1 failed for https://openreview.net/pdf/aac7a789463539d3cde8fa973a483f89909bca2a.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/aac7a789463539d3cde8fa973a483f89909bca2a.pdf]
+[2026-03-17 19:04:49,735: WARNING: 832439531: Attempt 2 failed for https://openreview.net/pdf/aac7a789463539d3cde8fa973a483f89909bca2a.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/aac7a789463539d3cde8fa973a483f89909bca2a.pdf]
+[2026-03-17 19:04:52,936: WARNING: 832439531: Attempt 3 failed for https://openreview.net/pdf/aac7a789463539d3cde8fa973a483f89909bca2a.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/aac7a789463539d3cde8fa973a483f89909bca2a.pdf]
+[2026-03-17 19:04:56,951: INFO: 832439531: Processing 4/1214]
+[2026-03-17 19:04:57,140: WARNING: 832439531: Attempt 1 failed for https://openreview.net/pdf/d2a42b7b622134c8c687b021501d60207eb73f7d.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/d2a42b7b622134c8c687b021501d60207eb73f7d.pdf]
+[2026-03-17 19:05:00,346: WARNING: 832439531: Attempt 2 failed for https://openreview.net/pdf/d2a42b7b622134c8c687b021501d60207eb73f7d.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/d2a42b7b622134c8c687b021501d60207eb73f7d.pdf]
+[2026-03-17 19:05:03,573: WARNING: 832439531: Attempt 3 failed for https://openreview.net/pdf/d2a42b7b622134c8c687b021501d60207eb73f7d.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/d2a42b7b622134c8c687b021501d60207eb73f7d.pdf]
+[2026-03-17 19:05:07,585: INFO: 832439531: Processing 5/1214]
+[2026-03-17 19:05:07,778: WARNING: 832439531: Attempt 1 failed for https://openreview.net/pdf/62dd307a745e636daae0693aef02e033303bd251.pdf: 403 Client Error: Forbidden for url: https://openreview.net/pdf/62dd307a745e636daae0693aef02e033303bd251.pdf]
+[2026-03-17 19:06:56,671: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 19:06:56,672: INFO: common: created directory at: artifacts]
+[2026-03-17 19:06:56,673: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-17 19:06:56,678: INFO: 4279981164: Reading dataset]
+[2026-03-17 19:06:56,709: INFO: 4279981164: Extracting introduction from PDFs]
+[2026-03-17 19:06:56,714: ERROR: 4279981164: Column 'pdf_path' not found in dataset]
+[2026-03-17 19:07:28,366: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 19:07:28,368: INFO: common: created directory at: artifacts]
+[2026-03-17 19:07:28,368: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-17 19:07:28,372: INFO: 1475989096: Reading dataset]
+[2026-03-17 19:07:28,399: INFO: 1475989096: Extracting introduction from PDFs]
+[2026-03-17 19:07:54,952: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 19:07:54,954: INFO: common: created directory at: artifacts]
+[2026-03-17 19:07:54,954: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-17 19:07:54,958: INFO: 2532530037: Reading dataset]
+[2026-03-17 19:07:54,984: INFO: 2532530037: Extracting introduction from PDFs]
+[2026-03-17 19:07:54,986: INFO: 2532530037: Processing 1/1214]
+[2026-03-17 19:07:54,986: WARNING: 2532530037: Attempt 1 failed for https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf: Provide exactly one of the following: id, ids, group_id, invitation_id]
+[2026-03-17 19:07:57,989: WARNING: 2532530037: Attempt 2 failed for https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf: Provide exactly one of the following: id, ids, group_id, invitation_id]
+[2026-03-17 19:08:00,992: WARNING: 2532530037: Attempt 3 failed for https://openreview.net/pdf/a82ec160e25fa08e901cf4720d1810d3f6d00ae2.pdf: Provide exactly one of the following: id, ids, group_id, invitation_id]
+[2026-03-17 19:08:05,000: INFO: 2532530037: Processing 2/1214]
+[2026-03-17 19:08:05,002: WARNING: 2532530037: Attempt 1 failed for https://openreview.net/pdf/7de864552f0638515d915497f208b6f5185bb64b.pdf: Provide exactly one of the following: id, ids, group_id, invitation_id]
+[2026-03-17 19:50:13,778: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 19:50:13,780: INFO: common: created directory at: artifacts]
+[2026-03-17 19:50:17,764: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 19:50:17,766: INFO: common: created directory at: artifacts]
+[2026-03-17 20:05:47,012: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:05:47,014: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:05:47,015: INFO: common: created directory at: artifacts]
+[2026-03-17 20:07:37,948: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:07:37,950: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:07:37,951: INFO: common: created directory at: artifacts]
+[2026-03-17 20:08:31,538: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:08:31,540: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:08:31,541: INFO: common: created directory at: artifacts]
+[2026-03-17 20:10:53,985: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:11:50,898: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:12:00,785: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:13:24,896: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:13:24,898: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:13:24,899: INFO: common: created directory at: artifacts]
+[2026-03-17 20:18:24,037: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:18:24,040: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:18:24,042: INFO: common: created directory at: artifacts]
+[2026-03-17 20:21:11,767: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:21:11,772: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:21:11,774: INFO: common: created directory at: artifacts]
+[2026-03-17 20:21:11,775: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:22:11,150: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:22:11,152: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:22:11,153: INFO: common: created directory at: artifacts]
+[2026-03-17 20:22:11,153: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:22:44,423: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:22:44,425: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:22:44,426: INFO: common: created directory at: artifacts]
+[2026-03-17 20:22:44,427: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:24:01,559: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:24:01,562: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:24:01,562: INFO: common: created directory at: artifacts]
+[2026-03-17 20:24:01,563: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:24:15,708: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:24:15,710: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:24:15,711: INFO: common: created directory at: artifacts]
+[2026-03-17 20:24:15,711: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:24:54,079: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:24:54,082: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:24:54,082: INFO: common: created directory at: artifacts]
+[2026-03-17 20:24:54,083: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:25:02,795: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:25:02,798: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:25:02,799: INFO: common: created directory at: artifacts]
+[2026-03-17 20:25:02,799: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:26:18,245: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:26:18,248: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:26:18,249: INFO: common: created directory at: artifacts]
+[2026-03-17 20:26:18,249: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:30:42,696: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:30:42,698: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:30:42,699: INFO: common: created directory at: artifacts]
+[2026-03-17 20:30:42,699: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:31:18,864: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:31:18,865: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:31:18,866: INFO: common: created directory at: artifacts]
+[2026-03-17 20:31:18,866: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:47:03,737: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-17 20:47:03,738: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:47:03,740: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:47:03,740: INFO: common: created directory at: artifacts]
+[2026-03-17 20:47:03,740: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-17 20:47:03,740: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-17 20:47:03,740: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-17 20:47:03,740: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-17 20:47:03,740: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:47:03,741: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:47:03,741: INFO: common: created directory at: artifacts]
+[2026-03-17 20:47:03,741: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:47:03,764: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-17 20:48:16,156: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-17 20:48:16,157: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:48:16,159: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:48:16,159: INFO: common: created directory at: artifacts]
+[2026-03-17 20:48:16,159: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-17 20:48:16,159: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-17 20:48:16,159: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-17 20:48:16,159: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-17 20:48:16,160: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:48:16,160: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:48:16,160: INFO: common: created directory at: artifacts]
+[2026-03-17 20:48:16,160: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:48:16,183: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-17 20:50:16,256: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-17 20:50:16,257: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:50:16,259: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:50:16,259: INFO: common: created directory at: artifacts]
+[2026-03-17 20:50:16,259: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-17 20:50:16,259: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-17 20:50:16,259: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-17 20:50:16,259: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-17 20:50:16,259: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:50:16,260: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:50:16,260: INFO: common: created directory at: artifacts]
+[2026-03-17 20:50:16,260: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:50:16,282: INFO: data_validation: Validation status: False]
+[2026-03-17 20:50:16,282: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-17 20:51:09,522: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-17 20:51:09,523: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:51:09,525: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:51:09,525: INFO: common: created directory at: artifacts]
+[2026-03-17 20:51:09,525: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-17 20:51:09,525: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-17 20:51:09,525: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-17 20:51:09,525: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-17 20:51:09,526: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-17 20:51:09,526: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-17 20:51:09,526: INFO: common: created directory at: artifacts]
+[2026-03-17 20:51:09,526: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 20:51:09,547: INFO: data_validation: Validation status: True]
+[2026-03-17 20:51:09,547: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-20 00:03:29,967: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:03:29,969: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:03:29,970: INFO: common: created directory at: artifacts]
+[2026-03-20 00:03:29,971: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:03:42,656: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:03:42,658: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:03:42,659: INFO: common: created directory at: artifacts]
+[2026-03-20 00:03:42,659: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:04:21,796: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:04:21,798: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:04:21,799: INFO: common: created directory at: artifacts]
+[2026-03-20 00:04:21,800: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:05:11,603: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:05:11,606: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:05:11,607: INFO: common: created directory at: artifacts]
+[2026-03-20 00:05:11,608: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:06:09,662: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:06:09,665: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:06:09,666: INFO: common: created directory at: artifacts]
+[2026-03-20 00:06:09,667: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:06:47,254: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:06:47,256: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:06:47,257: INFO: common: created directory at: artifacts]
+[2026-03-20 00:06:47,258: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:06:47,998: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:06:48,000: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:06:48,001: INFO: common: created directory at: artifacts]
+[2026-03-20 00:06:48,002: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:06:57,197: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:06:57,199: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:06:57,200: INFO: common: created directory at: artifacts]
+[2026-03-20 00:06:57,201: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:06:57,850: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:06:57,851: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:06:57,852: INFO: common: created directory at: artifacts]
+[2026-03-20 00:06:57,853: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:07:49,113: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:07:49,115: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:07:49,115: INFO: common: created directory at: artifacts]
+[2026-03-20 00:07:49,116: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:09:46,144: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:09:46,146: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:09:46,147: INFO: common: created directory at: artifacts]
+[2026-03-20 00:09:46,147: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:10:27,879: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:10:27,881: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:10:27,881: INFO: common: created directory at: artifacts]
+[2026-03-20 00:10:27,882: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 00:10:56,590: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 00:10:56,592: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 00:10:56,592: INFO: common: created directory at: artifacts]
+[2026-03-20 00:10:56,593: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 15:22:22,861: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 15:22:22,863: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 15:22:22,863: INFO: common: created directory at: artifacts]
+[2026-03-20 15:22:22,864: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 15:22:31,577: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 15:22:31,579: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 15:22:31,580: INFO: common: created directory at: artifacts]
+[2026-03-20 15:22:31,580: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 15:23:56,938: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 15:23:56,940: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 15:23:56,940: INFO: common: created directory at: artifacts]
+[2026-03-20 15:23:56,941: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 15:23:57,570: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 15:23:57,572: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 15:23:57,573: INFO: common: created directory at: artifacts]
+[2026-03-20 15:23:57,574: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 15:25:36,089: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 15:25:36,090: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 15:25:36,091: INFO: common: created directory at: artifacts]
+[2026-03-20 15:25:36,091: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 18:44:37,834: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 18:44:37,846: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 18:44:37,848: INFO: common: created directory at: artifacts]
+[2026-03-20 18:44:37,850: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 18:46:01,227: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 18:46:01,230: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 18:46:01,231: INFO: common: created directory at: artifacts]
+[2026-03-20 18:46:01,232: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 18:47:26,174: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 18:47:26,175: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 18:47:26,176: INFO: common: created directory at: artifacts]
+[2026-03-20 18:47:26,177: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 18:51:35,848: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 18:51:35,853: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 18:51:35,854: INFO: common: created directory at: artifacts]
+[2026-03-20 18:51:35,854: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 18:51:54,993: INFO: common: created directory at: artifacts/generalizer/problem_statement.txt]
+[2026-03-20 18:55:07,848: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 18:55:07,850: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 18:55:07,851: INFO: common: created directory at: artifacts]
+[2026-03-20 18:55:07,851: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 18:57:15,923: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 18:57:15,927: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 18:57:15,927: INFO: common: created directory at: artifacts]
+[2026-03-20 18:57:15,928: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 18:57:29,546: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 19:01:12,136: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:01:12,139: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 19:01:12,139: INFO: common: created directory at: artifacts]
+[2026-03-20 19:01:12,140: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 19:01:45,839: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 19:03:02,710: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:03:02,712: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 19:03:02,713: INFO: common: created directory at: artifacts]
+[2026-03-20 19:03:02,713: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 19:03:29,277: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 19:16:57,019: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:16:57,021: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 19:16:57,022: INFO: common: created directory at: artifacts]
+[2026-03-20 19:16:57,022: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 19:17:07,021: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 19:38:28,237: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:38:28,238: INFO: common: created directory at: artifacts]
+[2026-03-20 19:38:28,239: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:39:00,761: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:39:00,763: INFO: common: created directory at: artifacts]
+[2026-03-20 19:39:00,764: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:39:54,073: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:39:54,075: INFO: common: created directory at: artifacts]
+[2026-03-20 19:39:54,075: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:40:36,408: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:40:36,410: INFO: common: created directory at: artifacts]
+[2026-03-20 19:40:36,410: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:42:27,432: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:42:27,434: INFO: common: created directory at: artifacts]
+[2026-03-20 19:42:27,434: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:43:34,116: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:43:34,118: INFO: common: created directory at: artifacts]
+[2026-03-20 19:43:34,118: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:44:46,793: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:44:46,795: INFO: common: created directory at: artifacts]
+[2026-03-20 19:44:46,796: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:45:25,499: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:45:25,500: INFO: common: created directory at: artifacts]
+[2026-03-20 19:45:25,501: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:51:51,094: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:51:51,096: INFO: common: created directory at: artifacts]
+[2026-03-20 19:51:51,097: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 19:55:48,702: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 19:55:48,704: INFO: common: created directory at: artifacts]
+[2026-03-20 19:55:48,705: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 20:00:07,054: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:00:07,056: INFO: common: created directory at: artifacts]
+[2026-03-20 20:00:07,056: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 20:02:30,854: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:02:30,856: INFO: common: created directory at: artifacts]
+[2026-03-20 20:02:30,856: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 20:13:11,265: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-20 20:13:11,266: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:13:11,268: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:13:11,269: INFO: common: created directory at: artifacts]
+[2026-03-20 20:13:11,269: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-20 20:13:11,269: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-20 20:13:11,269: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-20 20:13:11,269: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-20 20:13:11,270: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:13:11,271: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:13:11,271: INFO: common: created directory at: artifacts]
+[2026-03-20 20:13:11,271: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-20 20:13:11,295: INFO: data_validation: Validation status: True]
+[2026-03-20 20:13:11,295: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-20 20:13:11,295: INFO: main: >>>>>> stage Abstract Generalizer stage started <<<<<<]
+[2026-03-20 20:13:11,296: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:13:11,297: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:13:11,297: INFO: common: created directory at: artifacts]
+[2026-03-20 20:13:11,297: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 20:13:24,912: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-20 20:13:24,924: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 20:13:24,925: INFO: main: >>>>>> stage Abstract Generalizer stage completed <<<<<<]
+[2026-03-20 20:20:54,733: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-20 20:20:54,734: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:20:54,736: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:20:54,736: INFO: common: created directory at: artifacts]
+[2026-03-20 20:20:54,736: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-20 20:20:54,736: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-20 20:20:54,736: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-20 20:20:54,736: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-20 20:20:54,737: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:20:54,737: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:20:54,737: INFO: common: created directory at: artifacts]
+[2026-03-20 20:20:54,737: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-20 20:20:54,759: INFO: data_validation: Validation status: True]
+[2026-03-20 20:20:54,759: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-20 20:20:54,759: INFO: main: >>>>>> stage Abstract Generalizer stage started <<<<<<]
+[2026-03-20 20:20:54,760: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:20:54,761: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:20:54,761: INFO: common: created directory at: artifacts]
+[2026-03-20 20:20:54,761: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 20:21:08,680: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-20 20:21:08,691: INFO: main: >>>>>> stage Abstract Generalizer stage completed <<<<<<]
+[2026-03-20 20:21:08,691: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-20 20:21:08,692: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:21:08,693: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:21:08,693: INFO: common: created directory at: artifacts]
+[2026-03-20 20:21:08,693: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 20:21:08,693: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-20 20:22:06,824: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-20 20:22:06,825: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:22:06,827: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:22:06,827: INFO: common: created directory at: artifacts]
+[2026-03-20 20:22:06,827: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-20 20:22:06,827: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-20 20:22:06,827: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-20 20:22:06,827: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-20 20:22:06,828: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:22:06,828: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:22:06,828: INFO: common: created directory at: artifacts]
+[2026-03-20 20:22:06,828: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-20 20:22:06,850: INFO: data_validation: Validation status: True]
+[2026-03-20 20:22:06,850: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-20 20:22:06,850: INFO: main: >>>>>> stage Abstract Generalizer stage started <<<<<<]
+[2026-03-20 20:22:06,851: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:22:06,851: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:22:06,851: INFO: common: created directory at: artifacts]
+[2026-03-20 20:22:06,851: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 20:22:16,885: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-20 20:22:16,903: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-20 20:22:16,904: INFO: main: >>>>>> stage Abstract Generalizer stage completed <<<<<<]
+[2026-03-20 20:22:16,904: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-20 20:22:16,907: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 20:22:16,908: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-20 20:22:16,908: INFO: common: created directory at: artifacts]
+[2026-03-20 20:22:16,908: INFO: common: created directory at: artifacts/solver]
+[2026-03-20 20:22:25,377: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-20 20:22:25,395: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-20 22:48:46,723: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:48:46,730: INFO: common: created directory at: artifacts]
+[2026-03-20 22:52:53,559: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:52:53,561: INFO: common: created directory at: artifacts]
+[2026-03-20 22:53:24,875: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:53:24,877: INFO: common: created directory at: artifacts]
+[2026-03-20 22:53:43,131: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:53:43,132: INFO: common: created directory at: artifacts]
+[2026-03-20 22:53:43,975: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:53:43,976: INFO: common: created directory at: artifacts]
+[2026-03-20 22:53:44,692: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:53:44,693: INFO: common: created directory at: artifacts]
+[2026-03-20 22:54:18,397: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:54:18,398: INFO: common: created directory at: artifacts]
+[2026-03-20 22:54:22,617: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:54:22,619: INFO: common: created directory at: artifacts]
+[2026-03-20 22:54:23,271: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:54:23,273: INFO: common: created directory at: artifacts]
+[2026-03-20 22:55:40,150: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:55:40,151: INFO: common: created directory at: artifacts]
+[2026-03-20 22:56:32,360: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 22:56:32,362: INFO: common: created directory at: artifacts]
+[2026-03-20 23:11:44,802: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:11:44,804: INFO: common: created directory at: artifacts]
+[2026-03-20 23:12:21,217: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:12:21,219: INFO: common: created directory at: artifacts]
+[2026-03-20 23:12:38,142: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:12:38,144: INFO: common: created directory at: artifacts]
+[2026-03-20 23:12:38,145: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:13:49,371: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:13:49,372: INFO: common: created directory at: artifacts]
+[2026-03-20 23:13:49,372: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:14:49,464: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:14:49,465: INFO: common: created directory at: artifacts]
+[2026-03-20 23:14:49,465: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:15:13,551: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:15:13,552: INFO: common: created directory at: artifacts]
+[2026-03-20 23:15:13,552: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:15:28,873: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:15:28,874: INFO: common: created directory at: artifacts]
+[2026-03-20 23:15:28,874: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:15:48,247: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:15:48,248: INFO: common: created directory at: artifacts]
+[2026-03-20 23:15:48,248: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:15:57,837: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:15:57,838: INFO: common: created directory at: artifacts]
+[2026-03-20 23:15:57,838: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:19:34,670: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:19:34,671: INFO: common: created directory at: artifacts]
+[2026-03-20 23:19:34,671: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:23:47,590: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:23:47,591: INFO: common: created directory at: artifacts]
+[2026-03-20 23:23:47,591: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:23:50,112: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:23:50,113: INFO: common: created directory at: artifacts]
+[2026-03-20 23:23:50,114: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:25:25,494: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:25:25,495: INFO: common: created directory at: artifacts]
+[2026-03-20 23:25:25,496: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:25:40,113: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:25:40,114: INFO: common: created directory at: artifacts]
+[2026-03-20 23:25:40,115: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:26:29,975: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:26:29,977: INFO: common: created directory at: artifacts]
+[2026-03-20 23:26:29,977: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:48:04,201: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:48:04,202: INFO: common: created directory at: artifacts]
+[2026-03-20 23:48:04,203: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-20 23:48:07,698: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-20 23:48:07,699: INFO: common: created directory at: artifacts]
+[2026-03-20 23:48:07,699: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:03:11,148: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:03:11,150: INFO: common: created directory at: artifacts]
+[2026-03-21 00:03:11,151: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:10:49,143: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 00:10:49,145: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:10:49,147: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:10:49,147: INFO: common: created directory at: artifacts]
+[2026-03-21 00:10:49,147: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 00:10:49,147: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-21 00:10:49,147: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-21 00:10:49,147: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-21 00:10:49,149: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:10:49,150: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:10:49,150: INFO: common: created directory at: artifacts]
+[2026-03-21 00:10:49,150: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-21 00:10:49,175: INFO: data_validation: Validation status: True]
+[2026-03-21 00:10:49,175: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-21 00:10:49,175: INFO: main: >>>>>> stage Abstract Generalizer stage started <<<<<<]
+[2026-03-21 00:10:49,177: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:10:49,178: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:10:49,178: INFO: common: created directory at: artifacts]
+[2026-03-21 00:10:49,178: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-21 00:11:02,319: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-21 00:11:02,323: INFO: main: >>>>>> stage Abstract Generalizer stage completed <<<<<<]
+[2026-03-21 00:11:02,324: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-21 00:11:02,329: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:11:02,331: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:11:02,331: INFO: common: created directory at: artifacts]
+[2026-03-21 00:11:02,331: INFO: common: created directory at: artifacts/solver]
+[2026-03-21 00:11:14,318: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-21 00:11:14,362: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-21 00:11:14,362: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-21 00:11:14,370: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:11:14,373: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:11:14,374: INFO: common: created directory at: artifacts]
+[2026-03-21 00:11:14,374: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:11:27,024: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-21 00:11:27,033: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-21 00:12:29,887: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 00:12:29,889: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:12:29,891: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:12:29,891: INFO: common: created directory at: artifacts]
+[2026-03-21 00:12:29,891: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 00:12:29,891: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-21 00:12:29,891: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-21 00:12:29,891: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-21 00:12:29,892: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:12:29,893: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:12:29,893: INFO: common: created directory at: artifacts]
+[2026-03-21 00:12:29,893: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-21 00:12:29,917: INFO: data_validation: Validation status: True]
+[2026-03-21 00:12:29,917: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-21 00:12:29,917: INFO: main: >>>>>> stage Abstract Generalizer stage started <<<<<<]
+[2026-03-21 00:12:29,919: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:12:29,919: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:12:29,919: INFO: common: created directory at: artifacts]
+[2026-03-21 00:12:29,919: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-21 00:12:41,153: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-21 00:12:41,171: INFO: main: >>>>>> stage Abstract Generalizer stage completed <<<<<<]
+[2026-03-21 00:12:41,172: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-21 00:12:41,179: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:12:41,182: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:12:41,182: INFO: common: created directory at: artifacts]
+[2026-03-21 00:12:41,183: INFO: common: created directory at: artifacts/solver]
+[2026-03-21 00:12:52,060: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-21 00:12:52,086: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-21 00:12:52,086: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-21 00:12:52,092: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:12:52,093: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:12:52,094: INFO: common: created directory at: artifacts]
+[2026-03-21 00:12:52,094: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:13:03,257: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"]
+[2026-03-21 00:13:03,269: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-21 00:13:43,546: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:13:43,547: INFO: common: created directory at: artifacts]
+[2026-03-21 00:13:43,548: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:14:30,360: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:14:30,361: INFO: common: created directory at: artifacts]
+[2026-03-21 00:14:30,362: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:16:44,185: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 00:16:44,187: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:16:44,188: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:16:44,188: INFO: common: created directory at: artifacts]
+[2026-03-21 00:16:44,189: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 00:16:44,189: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv]
+[2026-03-21 00:16:44,189: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-21 00:16:44,189: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-21 00:16:44,190: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:16:44,191: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:16:44,191: INFO: common: created directory at: artifacts]
+[2026-03-21 00:16:44,191: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-21 00:16:44,214: INFO: data_validation: Validation status: True]
+[2026-03-21 00:16:44,214: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-21 00:16:44,214: INFO: main: >>>>>> stage Abstract Generalizer stage started <<<<<<]
+[2026-03-21 00:16:44,215: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:16:44,216: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:16:44,216: INFO: common: created directory at: artifacts]
+[2026-03-21 00:16:44,216: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-21 00:16:44,685: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 402 Payment Required"]
+[2026-03-21 00:16:44,688: INFO: main: >>>>>> stage Abstract Generalizer stage completed <<<<<<]
+[2026-03-21 00:16:44,688: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-21 00:16:44,694: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:16:44,696: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:16:44,696: INFO: common: created directory at: artifacts]
+[2026-03-21 00:16:44,696: INFO: common: created directory at: artifacts/solver]
+[2026-03-21 00:16:44,842: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 402 Payment Required"]
+[2026-03-21 00:16:44,844: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-21 00:16:44,844: INFO: main: >>>>>> stage Solution stage started <<<<<<]
+[2026-03-21 00:16:44,851: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:16:44,852: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 00:16:44,853: INFO: common: created directory at: artifacts]
+[2026-03-21 00:16:44,853: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:16:44,986: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 402 Payment Required"]
+[2026-03-21 00:16:44,988: INFO: main: >>>>>> stage Solution stage completed <<<<<<]
+[2026-03-21 00:19:18,113: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:19:18,115: INFO: common: created directory at: artifacts]
+[2026-03-21 00:19:18,115: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:19:23,297: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:19:23,299: INFO: common: created directory at: artifacts]
+[2026-03-21 00:19:23,300: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:20:02,078: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:20:02,079: INFO: common: created directory at: artifacts]
+[2026-03-21 00:20:02,079: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:20:06,004: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:20:06,004: INFO: common: created directory at: artifacts]
+[2026-03-21 00:20:06,005: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:20:07,290: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:20:07,290: INFO: common: created directory at: artifacts]
+[2026-03-21 00:20:07,291: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:37:23,840: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:37:23,841: INFO: common: created directory at: artifacts]
+[2026-03-21 00:37:23,842: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:37:40,957: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:37:40,958: INFO: common: created directory at: artifacts]
+[2026-03-21 00:37:40,959: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:37:44,871: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:37:44,872: INFO: common: created directory at: artifacts]
+[2026-03-21 00:37:44,873: INFO: common: created directory at: artifacts/internal_critique]
+[2026-03-21 00:38:05,184: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:38:05,185: INFO: common: created directory at: artifacts]
+[2026-03-21 00:38:05,186: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:38:13,072: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:38:13,072: INFO: common: created directory at: artifacts]
+[2026-03-21 00:38:13,073: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:38:37,900: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:38:37,901: INFO: common: created directory at: artifacts]
+[2026-03-21 00:38:37,901: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:38:45,051: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:38:45,053: INFO: common: created directory at: artifacts]
+[2026-03-21 00:38:45,053: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:38:45,815: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:38:45,815: INFO: common: created directory at: artifacts]
+[2026-03-21 00:38:45,816: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:39:19,189: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:39:19,190: INFO: common: created directory at: artifacts]
+[2026-03-21 00:39:19,190: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:39:47,859: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:39:47,860: INFO: common: created directory at: artifacts]
+[2026-03-21 00:39:47,861: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:39:55,764: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:39:55,765: INFO: common: created directory at: artifacts]
+[2026-03-21 00:39:55,765: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 00:41:19,046: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 00:41:19,047: INFO: common: created directory at: artifacts]
+[2026-03-21 00:41:19,048: INFO: common: created directory at: artifacts/external_critique]
+[2026-03-21 18:22:43,133: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:22:43,136: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:22:43,138: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:22:43,138: INFO: common: created directory at: artifacts]
+[2026-03-21 18:22:43,138: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:22:43,138: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:22:43,361: ERROR: main: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 157, in __handle_response
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api2.openreview.net/notes?content.venueid=ICLR.cc%2F2025%2FConference&stream=true
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 19, in download_file
+    submissions = client.get_all_notes(
+        content={"venueid": self.config.venue_id}
+    )
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1597, in get_all_notes
+    results = self.get_notes(**params)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1467, in get_notes
+    response = self.__handle_response(response)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 172, in __handle_response
+    raise OpenReviewException(error)
+openreview.openreview.OpenReviewException: {'name': 'ForbiddenError', 'message': 'Forbidden'}
+[2026-03-21 18:24:41,990: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:24:41,993: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:24:41,995: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:24:41,995: INFO: common: created directory at: artifacts]
+[2026-03-21 18:24:41,995: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:24:41,995: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:24:41,995: INFO: data_ingestion: Trying OpenReview query: {'content': {'venueid': 'ICLR.cc/2025/Conference'}}]
+[2026-03-21 18:24:42,191: WARNING: data_ingestion: OpenReview query failed: {'content': {'venueid': 'ICLR.cc/2025/Conference'}} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:24:42,192: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Submission'}]
+[2026-03-21 18:24:42,245: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:24:42,245: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Blind_Submission'}]
+[2026-03-21 18:24:42,302: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Blind_Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:24:42,302: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Full_Submission'}]
+[2026-03-21 18:24:42,356: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Full_Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:24:42,357: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Paper'}]
+[2026-03-21 18:24:42,408: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Paper'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:24:42,408: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Paper_Submission'}]
+[2026-03-21 18:24:42,497: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Paper_Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:24:42,497: ERROR: main: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 157, in __handle_response
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api2.openreview.net/notes?invitation=ICLR.cc%2F2025%2FConference%2F-%2FPaper_Submission&stream=true
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 45, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 36, in _get_public_submissions
+    raise last_error
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 27, in _get_public_submissions
+    submissions = client.get_all_notes(**query)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1597, in get_all_notes
+    results = self.get_notes(**params)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1467, in get_notes
+    response = self.__handle_response(response)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 172, in __handle_response
+    raise OpenReviewException(error)
+openreview.openreview.OpenReviewException: {'name': 'ForbiddenError', 'message': 'Forbidden'}
+[2026-03-21 18:34:33,628: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:34:33,631: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:34:33,632: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:34:33,632: INFO: common: created directory at: artifacts]
+[2026-03-21 18:34:33,632: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:34:33,632: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:34:33,633: INFO: data_ingestion: Trying OpenReview query: {'content': {'venueid': 'ICLR.cc/2025/Conference'}}]
+[2026-03-21 18:34:33,920: WARNING: data_ingestion: OpenReview query failed: {'content': {'venueid': 'ICLR.cc/2025/Conference'}} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:34:33,921: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Submission'}]
+[2026-03-21 18:34:33,978: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:34:33,978: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Blind_Submission'}]
+[2026-03-21 18:34:34,040: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Blind_Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:34:34,040: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Full_Submission'}]
+[2026-03-21 18:34:34,094: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Full_Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:34:34,095: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Paper'}]
+[2026-03-21 18:34:34,152: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Paper'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:34:34,152: INFO: data_ingestion: Trying OpenReview query: {'invitation': 'ICLR.cc/2025/Conference/-/Paper_Submission'}]
+[2026-03-21 18:34:34,207: WARNING: data_ingestion: OpenReview query failed: {'invitation': 'ICLR.cc/2025/Conference/-/Paper_Submission'} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:34:34,208: ERROR: main: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 157, in __handle_response
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api2.openreview.net/notes?invitation=ICLR.cc%2F2025%2FConference%2F-%2FPaper_Submission&stream=true
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 163, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 148, in _get_public_submissions
+    raise last_error
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 139, in _get_public_submissions
+    submissions = client.get_all_notes(**query)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1597, in get_all_notes
+    results = self.get_notes(**params)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1467, in get_notes
+    response = self.__handle_response(response)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 172, in __handle_response
+    raise OpenReviewException(error)
+openreview.openreview.OpenReviewException: {'name': 'ForbiddenError', 'message': 'Forbidden'}
+[2026-03-21 18:38:26,894: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:38:26,897: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:38:26,899: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:38:26,899: INFO: common: created directory at: artifacts]
+[2026-03-21 18:38:26,899: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:38:26,899: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:38:26,899: INFO: data_ingestion: Trying OpenReview public query: {'content': {'venueid': 'ICLR.cc/2025/Conference'}}]
+[2026-03-21 18:38:27,107: WARNING: data_ingestion: OpenReview public query failed: {'content': {'venueid': 'ICLR.cc/2025/Conference'}} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:38:27,107: ERROR: main: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 157, in __handle_response
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api2.openreview.net/notes?content.venueid=ICLR.cc%2F2025%2FConference&stream=true
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 62, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 45, in _get_public_submissions
+    raise last_error
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 32, in _get_public_submissions
+    submissions = client.get_all_notes(**query)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1597, in get_all_notes
+    results = self.get_notes(**params)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1467, in get_notes
+    response = self.__handle_response(response)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 172, in __handle_response
+    raise OpenReviewException(error)
+openreview.openreview.OpenReviewException: {'name': 'ForbiddenError', 'message': 'Forbidden'}
+[2026-03-21 18:44:23,032: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:44:23,040: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:44:23,043: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:44:23,044: INFO: common: created directory at: artifacts]
+[2026-03-21 18:44:23,044: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:44:23,044: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:44:23,045: INFO: data_ingestion: Trying OpenReview public query: {'content': {'venueid': 'ICLR.cc/2024/Conference'}}]
+[2026-03-21 18:44:23,351: WARNING: data_ingestion: OpenReview public query failed: {'content': {'venueid': 'ICLR.cc/2024/Conference'}} with error: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:44:23,351: ERROR: main: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 157, in __handle_response
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api2.openreview.net/notes?content.venueid=ICLR.cc%2F2024%2FConference&stream=true
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 62, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 45, in _get_public_submissions
+    raise last_error
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 32, in _get_public_submissions
+    submissions = client.get_all_notes(**query)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1597, in get_all_notes
+    results = self.get_notes(**params)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 1467, in get_notes
+    response = self.__handle_response(response)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/openreview/api/client.py", line 172, in __handle_response
+    raise OpenReviewException(error)
+openreview.openreview.OpenReviewException: {'name': 'ForbiddenError', 'message': 'Forbidden'}
+[2026-03-21 18:45:21,674: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:45:21,677: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:45:21,678: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:45:21,678: INFO: common: created directory at: artifacts]
+[2026-03-21 18:45:21,678: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:45:21,678: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:45:21,679: INFO: data_ingestion: Trying invitation: ICLR.cc/2024/Conference/-/Blind_Submission]
+[2026-03-21 18:45:21,949: WARNING: data_ingestion: Failed for invitation ICLR.cc/2024/Conference/-/Blind_Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:45:21,949: INFO: data_ingestion: Trying invitation: ICLR.cc/2024/Conference/-/Submission]
+[2026-03-21 18:45:22,020: WARNING: data_ingestion: Failed for invitation ICLR.cc/2024/Conference/-/Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:45:22,021: ERROR: main: No public submissions found for venue_id=ICLR.cc/2024/Conference]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 52, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 37, in _get_public_submissions
+    raise ValueError(
+        f"No public submissions found for venue_id={self.config.venue_id}"
+    )
+ValueError: No public submissions found for venue_id=ICLR.cc/2024/Conference
+[2026-03-21 18:45:34,220: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:45:34,223: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:45:34,224: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:45:34,224: INFO: common: created directory at: artifacts]
+[2026-03-21 18:45:34,224: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:45:34,224: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:45:34,225: INFO: data_ingestion: Trying invitation: ICLR.cc/2025/Conference/-/Blind_Submission]
+[2026-03-21 18:45:34,411: WARNING: data_ingestion: Failed for invitation ICLR.cc/2025/Conference/-/Blind_Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:45:34,411: INFO: data_ingestion: Trying invitation: ICLR.cc/2025/Conference/-/Submission]
+[2026-03-21 18:45:34,532: WARNING: data_ingestion: Failed for invitation ICLR.cc/2025/Conference/-/Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:45:34,532: ERROR: main: No public submissions found for venue_id=ICLR.cc/2025/Conference]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 52, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 37, in _get_public_submissions
+    raise ValueError(
+        f"No public submissions found for venue_id={self.config.venue_id}"
+    )
+ValueError: No public submissions found for venue_id=ICLR.cc/2025/Conference
+[2026-03-21 18:46:55,720: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:46:55,723: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:46:55,724: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:46:55,724: INFO: common: created directory at: artifacts]
+[2026-03-21 18:46:55,725: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:46:55,725: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:46:55,725: INFO: data_ingestion: Trying invitation: ICLR.cc/2025/Conference/-/Submission/-/Blind_Submission]
+[2026-03-21 18:46:56,014: WARNING: data_ingestion: Failed for invitation ICLR.cc/2025/Conference/-/Submission/-/Blind_Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:46:56,015: INFO: data_ingestion: Trying invitation: ICLR.cc/2025/Conference/-/Submission/-/Submission]
+[2026-03-21 18:46:56,072: WARNING: data_ingestion: Failed for invitation ICLR.cc/2025/Conference/-/Submission/-/Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:46:56,072: ERROR: main: No public submissions found for venue_id=ICLR.cc/2025/Conference/-/Submission]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 52, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 37, in _get_public_submissions
+    raise ValueError(
+        f"No public submissions found for venue_id={self.config.venue_id}"
+    )
+ValueError: No public submissions found for venue_id=ICLR.cc/2025/Conference/-/Submission
+[2026-03-21 18:50:43,862: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:50:43,865: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:50:43,866: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:50:43,866: INFO: common: created directory at: artifacts]
+[2026-03-21 18:50:43,866: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:50:43,866: INFO: data_ingestion: Starting downloading dataset]
+[2026-03-21 18:50:43,867: INFO: data_ingestion: Trying invitation: ICLR.cc/2024/Conference/-/Blind_Submission]
+[2026-03-21 18:50:44,080: WARNING: data_ingestion: Failed for invitation ICLR.cc/2024/Conference/-/Blind_Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:50:44,080: INFO: data_ingestion: Trying invitation: ICLR.cc/2024/Conference/-/Submission]
+[2026-03-21 18:50:44,137: WARNING: data_ingestion: Failed for invitation ICLR.cc/2024/Conference/-/Submission: {'name': 'ForbiddenError', 'message': 'Forbidden'}]
+[2026-03-21 18:50:44,137: ERROR: main: No public submissions found for venue_id=ICLR.cc/2024/Conference. Tried: ['ICLR.cc/2024/Conference/-/Blind_Submission', 'ICLR.cc/2024/Conference/-/Submission']]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_01_data_ingestion.py", line 14, in main
+    return data_ingestion.download_file()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 52, in download_file
+    submissions = self._get_public_submissions(client)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_ingestion.py", line 37, in _get_public_submissions
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: No public submissions found for venue_id=ICLR.cc/2024/Conference. Tried: ['ICLR.cc/2024/Conference/-/Blind_Submission', 'ICLR.cc/2024/Conference/-/Submission']
+[2026-03-21 18:53:01,917: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:53:01,920: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:53:01,921: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:53:01,921: INFO: common: created directory at: artifacts]
+[2026-03-21 18:53:01,921: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:53:01,921: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv, size: ~ 0 KB]
+[2026-03-21 18:53:01,921: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<]
+[2026-03-21 18:53:01,921: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-21 18:53:01,924: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:53:01,924: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:53:01,924: INFO: common: created directory at: artifacts]
+[2026-03-21 18:53:01,924: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-21 18:53:01,926: ERROR: main: No columns to parse from file]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_02_data_validation.py", line 14, in main
+    return data_validation.validate_dataset()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_validation.py", line 11, in validate_dataset
+    dataset = pd.read_csv(self.config.data_path)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 1922, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 95, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 575, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+[2026-03-21 18:57:00,557: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 18:57:00,559: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:57:00,561: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:57:00,561: INFO: common: created directory at: artifacts]
+[2026-03-21 18:57:00,561: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 18:57:00,561: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv, size: ~ 0 KB]
+[2026-03-21 18:57:00,561: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<]
+[2026-03-21 18:57:00,561: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-21 18:57:00,563: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 18:57:00,564: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 18:57:00,564: INFO: common: created directory at: artifacts]
+[2026-03-21 18:57:00,564: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-21 18:57:00,566: ERROR: main: No columns to parse from file]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_02_data_validation.py", line 14, in main
+    return data_validation.validate_dataset()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/data_validation.py", line 11, in validate_dataset
+    dataset = pd.read_csv(self.config.data_path)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/readers.py", line 1922, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 95, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 575, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+[2026-03-21 19:55:20,382: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-21 19:55:20,385: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 19:55:20,387: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 19:55:20,387: INFO: common: created directory at: artifacts]
+[2026-03-21 19:55:20,387: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-21 19:55:20,387: INFO: data_ingestion: Data already present at: artifacts/data_ingestion/data.csv, size: ~ 997 KB]
+[2026-03-21 19:55:20,387: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<]
+[2026-03-21 19:55:20,387: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-21 19:55:20,389: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 19:55:20,390: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 19:55:20,390: INFO: common: created directory at: artifacts]
+[2026-03-21 19:55:20,390: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-21 19:55:20,405: INFO: data_validation: Validation status: True]
+[2026-03-21 19:55:20,405: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<]
+[2026-03-21 19:55:20,405: INFO: main: Generating fixed problem statement from abstract.]
+[2026-03-21 19:55:20,405: INFO: main: >>>>>> stage Abstract Generalizer stage started <<<<<<]
+[2026-03-21 19:55:20,408: INFO: common: yaml_path: config/config.yaml loaded successfully]
+[2026-03-21 19:55:20,409: INFO: common: yaml_path: config/schema.yaml loaded successfully]
+[2026-03-21 19:55:20,409: INFO: common: created directory at: artifacts]
+[2026-03-21 19:55:20,409: INFO: common: created directory at: artifacts/generalizer]
+[2026-03-21 19:55:20,417: INFO: generalizer: Using paper from paper_id=ANvmVS2Yr0, title=Generalization in diffusion models arises from geometry-adaptive harmonic representations]
+[2026-03-21 19:55:20,713: WARNING: generalizer: Falling back to CSV abstract because PDF extraction failed: 403 Client Error: Forbidden for url: https://openreview.net/pdf?id=ANvmVS2Yr0]
+[2026-03-21 19:55:21,204: INFO: _client: HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 402 Payment Required"]
+[2026-03-21 19:55:21,205: ERROR: main: Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69bf5a19-0af50dc5750755f658db55f1;4d7fa010-cf68-480e-bbd2-36c30bd8156a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.]
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/huggingface_hub/utils/_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py", line 99, in _run_stage
+    result = stage_obj.main()
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/pipeline/stage_03_generalizer.py", line 15, in main
+    generalized_problem = generalizer.generalization_agent(abstract_text)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/src/AINSTEIN/components/generalizer.py", line 238, in generalization_agent
+    raw_response = chain.invoke({"abstract": abstract})
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/langchain_core/runnables/base.py", line 3157, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 402, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 1123, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 933, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 1235, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/langchain_huggingface/chat_models/huggingface.py", line 750, in _generate
+    answer = self.llm.client.chat_completion(messages=message_dicts, **params)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/huggingface_hub/inference/_client.py", line 933, in chat_completion
+    data = self._inner_post(request_parameters, stream=stream)
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/huggingface_hub/inference/_client.py", line 286, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/venv/lib/python3.14/site-packages/huggingface_hub/utils/_http.py", line 889, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69bf5a19-0af50dc5750755f658db55f1;4d7fa010-cf68-480e-bbd2-36c30bd8156a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
