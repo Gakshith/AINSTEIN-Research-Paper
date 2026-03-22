@@ -111,7 +111,7 @@ Recommended citation entry:
 ```bibtex
 @article{ainstein2025,
   title={AINSTEIN: Assessing the Feasibility of AI-Generated Approaches to Research Problems},
-  author={Anonymous Authors},
+  author={Shambhavi Mishra,Gaurav Sahu,Marco Pedersoli1, Laurent Charlin, Jose Dolz,Christopher Pal2},
   journal={ICLR 2026 submission},
   year={2025},
   url={https://openreview.net/pdf/32789ed9a5cb7c59bb0d0ccd108f5ce441e6c38e.pdf}
