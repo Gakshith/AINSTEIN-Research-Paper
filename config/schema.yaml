@@ -1,0 +1,7 @@
+COLUMNS:
+  paper_id: str
+  title: str
+  abstract: str
+  pdf_url: str
+  tier: str
+
