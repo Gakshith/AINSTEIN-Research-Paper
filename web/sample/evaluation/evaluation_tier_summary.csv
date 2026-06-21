@@ -1,0 +1,4 @@
+tier,num_papers,num_errors,success_rate_relaxed,success_rate_strict,rediscovery_relaxed,rediscovery_strict,novel_and_valid_relaxed,novel_and_valid_strict,judge_agreement,token_jaccard,token_f1,keyword_overlap,length_ratio,sequence_similarity
+Oral,2,0,1.0,1.0,1.0,1.0,0.5,0.0,1.0,0.231,0.385,0.308,0.6925,0.4235
+Poster,2,0,1.0,0.5,0.5,0.0,0.5,0.0,1.0,0.21,0.35,0.28,0.675,0.385
+Spotlight,2,0,0.5,0.0,0.0,0.0,0.5,0.0,1.0,0.153,0.255,0.204,0.6275,0.2805

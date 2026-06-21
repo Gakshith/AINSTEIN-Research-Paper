@@ -8,6 +8,11 @@ class DataValidation:
         self.config = config
 
     def validate_dataset(self):
+        if not os.path.exists(self.config.data_path):
+            raise FileNotFoundError(
+                f"Dataset not found at {self.config.data_path}. "
+                "Run data ingestion first (stage 01) to populate it."
+            )
         dataset = pd.read_csv(self.config.data_path)
         validation_status = True
         os.makedirs(os.path.dirname(self.config.STATUS_FILE), exist_ok=True)

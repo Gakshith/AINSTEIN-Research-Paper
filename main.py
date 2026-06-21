@@ -71,6 +71,7 @@
 #
 
 from src.AINSTEIN import logger
+from src.AINSTEIN.utils.common import require_hf_token
 from src.AINSTEIN.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.AINSTEIN.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from src.AINSTEIN.pipeline.stage_03_generalizer import GeneralizerTrainingPipeline
@@ -92,6 +93,8 @@ class AINSTEINController:
         self.max_external_attempts = max_external_attempts
         self.internal_status_path = internal_status_path
         self.external_status_path = external_status_path
+        # True only if a generated solution passed both internal and external critique.
+        self.critique_passed = False
 
     def _run_stage(self, stage_name: str, stage_obj):
         try:
@@ -115,6 +118,10 @@ class AINSTEINController:
         return False
 
     def run(self):
+        # Fail fast with clear guidance if the HuggingFace token is missing,
+        # rather than an opaque 401 deep inside the first LLM stage.
+        require_hf_token()
+
         # Stage 1: Data ingestion
         self._run_stage("Data Ingestion stage", DataIngestionTrainingPipeline())
 
@@ -128,6 +135,8 @@ class AINSTEINController:
         p_final = self._run_stage("Abstract Generalizer stage", GeneralizerTrainingPipeline())
 
         z_final = None
+        last_candidate = None
+        self.critique_passed = False
 
         # External critique loop
         for e in range(1, self.max_external_attempts + 1):
@@ -139,6 +148,7 @@ class AINSTEINController:
 
                 # Solver regenerates solution each time
                 z_candidate = self._run_stage("Solution stage", SolutionTrainingPipeline())
+                last_candidate = z_candidate
 
                 # Internal critique checks solution
                 self._run_stage("Internal Critique stage", InternalCritiqueTrainingPipeline())
@@ -161,12 +171,19 @@ class AINSTEINController:
             if external_pass:
                 logger.info("External critique passed. Final solution accepted.")
                 z_final = z_candidate
+                self.critique_passed = True
                 break
 
             logger.info("External critique failed. Sending solution back to Solver.")
 
         if z_final is None:
-            logger.warning("No final solution accepted after all critique attempts.")
+            # No solution passed both critiques. Keep the last generated candidate as a
+            # best-effort, unverified result instead of discarding it silently.
+            logger.warning(
+                "No solution passed critique within the attempt budget; "
+                "returning the last candidate as best-effort (critique_passed=False)."
+            )
+            z_final = last_candidate
 
         evaluation_result = self._run_stage("Evaluation stage", EvaluationTrainingPipeline())
         logger.info(f"Evaluation Result: {evaluation_result}")

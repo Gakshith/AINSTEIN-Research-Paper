@@ -1,22 +1,33 @@
-pandas
-numpy
-torch
-notebook
-matplotlib
-pyYAML
-types-pyYAML
-python-box
-tqdm
-joblib
-Flask
-Flask-Cors
-scipy
-openreview-py
-pydantic
-ensure
-langchain-core
-langchain-huggingface
-huggingface_hub
-requests
-pypdf
-pytest
+# Runtime dependencies (pinned to known-good versions).
+# Optional/heavy extras (torch, notebook, type stubs, test tools) live in requirements-dev.txt.
+
+# Data / numerics
+pandas==3.0.3
+numpy==2.4.6
+scipy==1.18.0
+matplotlib==3.11.0
+
+# Config / utilities
+PyYAML==6.0.3
+python-box==7.4.1
+ensure==1.0.4
+tqdm==4.68.3
+joblib==1.5.3
+pydantic==2.13.4
+
+# LLM (HuggingFace inference endpoints)
+langchain-core==1.4.8
+langchain-huggingface==1.2.2
+huggingface_hub==1.20.1
+
+# Data sources
+requests==2.34.2
+pypdf==6.13.3
+openreview-py==2.2.3
+
+# Web app (FastAPI + server-rendered dashboard)
+fastapi==0.138.0
+uvicorn[standard]==0.49.0
+jinja2==3.1.6
+python-multipart==0.0.32
+python-dotenv==1.2.2

@@ -15,4 +15,10 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 COPY . .
 
-CMD ["python", "evaluation_result.py"]
+# Default: serve the web dashboard + API. Override to run batch eval:
+#   docker run ... ainstein-eval python evaluation_result.py
+# or a single-paper run:
+#   docker run ... ainstein-eval python main.py
+EXPOSE 8000
+ENV AINSTEIN_SAMPLE=1
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

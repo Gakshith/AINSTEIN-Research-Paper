@@ -23,6 +23,10 @@ def make_config(tmp_path: Path) -> EvaluationConfig:
         baseline_results_csv=tmp_path / "baseline_results.csv",
         baseline_summary_csv=tmp_path / "baseline_summary.csv",
         plots_dir=tmp_path / "plots",
+        overall_table_md=tmp_path / "overall_results_table.md",
+        tier_table_md=tmp_path / "tier_results_table.md",
+        baseline_table_md=tmp_path / "baseline_results_table.md",
+        experiment_report_md=tmp_path / "experiment_report.md",
     )
 
 

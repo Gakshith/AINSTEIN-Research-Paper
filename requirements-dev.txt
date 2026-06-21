@@ -1,0 +1,14 @@
+# Development & optional dependencies. Install with: pip install -r requirements-dev.txt
+-r requirements.txt
+
+# Testing
+pytest==9.1.1
+httpx==0.28.1
+
+# Type stubs
+types-PyYAML
+
+# Optional / heavy — only needed for local model experimentation or notebooks.
+# The default pipeline uses HuggingFace *inference endpoints* and does not require torch.
+# torch
+# notebook

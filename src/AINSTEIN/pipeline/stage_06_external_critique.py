@@ -12,11 +12,17 @@ class ExternalCritiqueTrainingPipeline:
         external_critique_config = config_manager.get_external_critique_config()
 
         status = "False"
-        with open(external_critique_config.internal_critique_status, "r", encoding="utf-8") as f:
-            for line in f:
-                if line.startswith("Status:"):
-                    status = line.split(":", 1)[1].strip()
-                    break
+        try:
+            with open(external_critique_config.internal_critique_status, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.startswith("Status:"):
+                        status = line.split(":", 1)[1].strip()
+                        break
+        except FileNotFoundError:
+            logger.warning(
+                "Internal critique status file not found at "
+                f"{external_critique_config.internal_critique_status}; treating as not passed."
+            )
 
         if status != "True":
             logger.info("Skipping external critique because internal critique did not pass.")

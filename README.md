@@ -16,16 +16,30 @@ The pipeline:
 
 ## Main Entry Points
 
-- [main.py](/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/main.py): single-paper pipeline
-- [evaluation_result.py](/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/evaluation_result.py): full dataset batch evaluation
+- [main.py](main.py): single-paper pipeline
+- [evaluation_result.py](evaluation_result.py): full dataset batch evaluation
+- [app.py](app.py): web dashboard + API (FastAPI)
 
 ## Installation
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt        # runtime
+pip install -r requirements-dev.txt    # + tests and optional extras
 ```
+
+## Environment
+
+The LLM stages call HuggingFace inference endpoints (`deepseek-ai/DeepSeek-R1`) and need an
+API token. Copy `.env.example` to `.env` and set it (or export it):
+
+```bash
+export HUGGINGFACEHUB_API_TOKEN=hf_xxx   # or HF_TOKEN
+```
+
+Without a token the pipeline fails fast with a clear message, and the web app's live demo is
+disabled (the results dashboard still works).
 
 ## Dataset Format
 
@@ -44,7 +58,7 @@ Expected `tier` values:
 
 ### Single-paper run
 
-Configure the selected paper in [config/config.yaml](/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/config/config.yaml) using:
+Configure the selected paper in [config/config.yaml](config/config.yaml) using:
 - `generalizer.paper_id`
 - or `generalizer.row_index`
 
@@ -62,7 +76,7 @@ Then run:
 
 ## Output Files
 
-Batch evaluation writes results to [artifacts/evaluation](/Users/gojuruakshith/PycharmProjects/AINSTEIN-Research-Paper/artifacts/evaluation):
+Batch evaluation writes results to [artifacts/evaluation](artifacts/evaluation):
 
 - `evaluation_results.csv`
 - `baseline_results.csv`
@@ -75,6 +89,21 @@ Batch evaluation writes results to [artifacts/evaluation](/Users/gojuruakshith/P
 - `experiment_report.md`
 - `plots/`
 
+## Web app (dashboard + live demo)
+
+A FastAPI app serves a results dashboard (charts, per-paper drill-down, baselines) and a live
+single-paper demo.
+
+```bash
+uvicorn app:app --reload
+# open http://127.0.0.1:8000   (interactive API docs at /docs)
+```
+
+- The dashboard reads existing artifacts from `artifacts/evaluation/`. Set `AINSTEIN_SAMPLE=1`
+  to preview with bundled sample data before you've run a real evaluation.
+- The live demo (`/demo`) runs the full pipeline on one paper; it requires
+  `HUGGINGFACEHUB_API_TOKEN` and is disabled with a clear message otherwise.
+
 ## Docker
 
 Build:
@@ -83,10 +112,17 @@ Build:
 docker build -t ainstein-eval .
 ```
 
+Serve the web app (default):
+
+```bash
+docker run --rm -p 8000:8000 -e HUGGINGFACEHUB_API_TOKEN=$HUGGINGFACEHUB_API_TOKEN \
+  -v "$(pwd)/artifacts:/app/artifacts" ainstein-eval
+```
+
 Run batch evaluation:
 
 ```bash
-docker run --rm -v "$(pwd)/artifacts:/app/artifacts" ainstein-eval
+docker run --rm -v "$(pwd)/artifacts:/app/artifacts" ainstein-eval python evaluation_result.py
 ```
 
 Run single-paper mode:

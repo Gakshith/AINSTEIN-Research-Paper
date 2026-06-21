@@ -12,6 +12,7 @@ from src.AINSTEIN.components.internal_critique import InternalCritique
 from src.AINSTEIN.components.reporting import ExperimentReporter
 from src.AINSTEIN.components.solver import Solver
 from src.AINSTEIN.config.configuration import ConfigurationManager
+from src.AINSTEIN.utils.common import require_hf_token
 from src.AINSTEIN.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.AINSTEIN.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 
@@ -314,6 +315,8 @@ class BatchEvaluationController:
         return [main_row] + baseline_rows
 
     def run(self):
+        # Fail fast with clear guidance if the HuggingFace token is missing.
+        require_hf_token()
         self._run_stage("Data Ingestion stage", lambda: DataIngestionTrainingPipeline().main())
         validation_passed = self._run_stage(
             "Data Validation stage",

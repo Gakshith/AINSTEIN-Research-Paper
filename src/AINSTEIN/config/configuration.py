@@ -1,8 +1,7 @@
-from src.AINSTEIN.constants import CONFIG_FILE_PATH
-from dataclasses import dataclass
-from pathlib import Path
+import os
+
+from src.AINSTEIN.constants import CONFIG_FILE_PATH, SCHEMA_FILE_PATH
 from src.AINSTEIN.entity.config_entity import DataIngestionConfig,DataValidationConfig,GeneralizerConfig,SolverConfig,InternalCritiqueConfig,ExternalCritiqueConfig,EvaluationConfig
-from src.AINSTEIN.constants import CONFIG_FILE_PATH,SCHEMA_FILE_PATH
 from src.AINSTEIN.utils.common import read_yaml,create_directories,get_size
 
 
@@ -37,13 +36,19 @@ class ConfigurationManager:
         config = self.config.generalizer
         create_directories([config.root_dir])
 
+        # Allow the web live-demo (or a one-off run) to select the paper without
+        # editing config.yaml, via AINSTEIN_PAPER_ID / AINSTEIN_ROW_INDEX env vars.
+        paper_id = os.environ.get("AINSTEIN_PAPER_ID") or config.paper_id
+        row_index_env = os.environ.get("AINSTEIN_ROW_INDEX")
+        row_index = int(row_index_env) if row_index_env not in (None, "") else config.row_index
+
         return GeneralizerConfig(
             root_dir=config.root_dir,
             data_path=config.data_path,
             abstract_column=config.abstract_column,
             pdf_url_column=config.pdf_url_column,
-            paper_id=config.paper_id,
-            row_index=config.row_index,
+            paper_id=paper_id,
+            row_index=row_index,
             abstract_fallback_to_csv=config.abstract_fallback_to_csv,
             generalizer_model=config.generalizer_model,
             max_tokens=config.max_tokens,

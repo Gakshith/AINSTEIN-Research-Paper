@@ -1,0 +1,4 @@
+method_name,num_papers,num_errors,success_rate_relaxed,success_rate_strict,rediscovery_relaxed,rediscovery_strict,novel_and_valid_relaxed,novel_and_valid_strict,judge_agreement,token_jaccard,token_f1,keyword_overlap,length_ratio,sequence_similarity
+problem_restatement,6,0,0.0,0.0,0.0,0.0,0.0,0.0,0.83,0.15,0.2,0.2,0.4,0.3
+keyword_template,6,0,0.0,0.0,0.0,0.0,0.0,0.0,0.83,0.15,0.2,0.2,0.4,0.3
+abstract_copy,6,0,0.17,0.0,0.17,0.0,0.0,0.0,0.83,0.45,0.55,0.2,0.4,0.3

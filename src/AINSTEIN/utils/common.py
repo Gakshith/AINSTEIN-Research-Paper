@@ -8,7 +8,6 @@ import joblib
 import os
 from box import ConfigBox
 import json
-from box.exceptions import BoxValueError
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path)-> ConfigBox:
@@ -17,10 +16,10 @@ def read_yaml(path_to_yaml: Path)-> ConfigBox:
             content = yaml.safe_load(file)
             logger.info(f"yaml_path: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
-    except BoxValueError as e:
-        raise ValueError(e)
+    except BoxValueError:
+        raise ValueError(f"yaml file is empty: {path_to_yaml}")
     except Exception as e:
-        raise e
+        raise RuntimeError(f"Failed to read yaml file: {path_to_yaml}") from e
 
 @ensure_annotations
 def create_directories(path_to_directories: list, verbose=True):
@@ -63,3 +62,31 @@ def load_bin(path: Path) -> Any:
 def get_size(path: Path) -> str:
     size_in_kb = round(os.path.getsize(path)/1024)
     return f"~ {size_in_kb} KB"
+
+
+# HuggingFace inference endpoints (used by every LLM stage) read the API token
+# from the environment. langchain accepts either HUGGINGFACEHUB_API_TOKEN or HF_TOKEN.
+HF_TOKEN_ENV_VARS = ("HUGGINGFACEHUB_API_TOKEN", "HF_TOKEN")
+
+
+def hf_token_available() -> bool:
+    """Return True if a HuggingFace inference token is configured in the environment."""
+    return any(os.environ.get(var) for var in HF_TOKEN_ENV_VARS)
+
+
+def require_hf_token() -> str:
+    """Return the configured HuggingFace token, or raise a clear, actionable error.
+
+    Call this before any LLM stage so a missing token fails fast with guidance
+    instead of an opaque 401 from the inference endpoint.
+    """
+    for var in HF_TOKEN_ENV_VARS:
+        token = os.environ.get(var)
+        if token:
+            return token
+    raise RuntimeError(
+        "HUGGINGFACEHUB_API_TOKEN is not set. The AINSTEIN LLM stages call HuggingFace "
+        "inference endpoints (deepseek-ai/DeepSeek-R1) and need an API token. "
+        "Set HUGGINGFACEHUB_API_TOKEN (or HF_TOKEN) in your environment or .env file. "
+        "See .env.example."
+    )
