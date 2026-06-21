@@ -64,7 +64,13 @@
     var k = (t || "").toLowerCase();
     return "chip chip-" + (["oral", "spotlight", "poster"].includes(k) ? k : "poster");
   }
-  async function getJSON(url) { var r = await fetch(url); return r.json(); }
+  async function getJSON(url) {
+    // Static mode (GitHub Pages): no backend — map /api/x?… to api/x.json files.
+    if (window.AINSTEIN_STATIC) {
+      url = "api/" + url.split("?")[0].replace(/^\/api\//, "").replace(/\/$/, "") + ".json";
+    }
+    var r = await fetch(url); return r.json();
+  }
 
   // ---- Dashboard ------------------------------------------------------------
   var charts = [];
@@ -191,14 +197,18 @@
     var q = ((document.getElementById("search") || {}).value || "").toLowerCase();
     var data = await getJSON("/api/papers?limit=500" + (tier ? "&tier=" + encodeURIComponent(tier) : ""));
     var items = (data.items || []).filter(function (p) {
-      return !q || String(p.title || "").toLowerCase().includes(q);
+      return (!q || String(p.title || "").toLowerCase().includes(q)) &&
+             (!tier || String(p.tier || "") === tier);
     });
     if (!items.length) {
       rows.innerHTML = '<tr><td colspan="6" style="color:var(--text-faint);padding:22px;">No matching papers.</td></tr>';
       return;
     }
     rows.innerHTML = items.map(function (p) {
-      return '<tr onclick="window.location=\'/paper/' + encodeURIComponent(p.paper_id) + '\'">' +
+      var href = window.AINSTEIN_STATIC
+        ? "paper-" + encodeURIComponent(p.paper_id) + ".html"
+        : "/paper/" + encodeURIComponent(p.paper_id);
+      return '<tr onclick="window.location=\'' + href + '\'">' +
         '<td class="title">' + (p.title || p.paper_id) + '</td>' +
         '<td><span class="' + tierChipClass(p.tier) + '">' + (p.tier || "—") + '</span></td>' +
         '<td>' + (p.success_rate_relaxed ? "✓" : "—") + '</td>' +

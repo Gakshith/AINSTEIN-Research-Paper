@@ -11,7 +11,18 @@
   </p>
 </section>
 
-{% if not hf_token_configured %}
+{% if static_preview %}
+<section class="empty fade-in">
+  <div class="ico">🧪</div>
+  <h2>Live demo runs locally</h2>
+  <p>
+    This is a static preview hosted on GitHub Pages, so the live pipeline — which needs a Python
+    server and a HuggingFace token — isn't available here. Clone the repository and run it locally
+    to watch AINSTEIN generalize, solve, critique, and evaluate a paper in real time.
+  </p>
+  <a class="btn primary" href="/">← Back to dashboard</a>
+</section>
+{% elif not hf_token_configured %}
 <section class="empty fade-in">
   <div class="ico">🔑</div>
   <h2>Live demo needs a HuggingFace token</h2>

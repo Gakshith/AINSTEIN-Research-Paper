@@ -17,6 +17,9 @@ env/
 # Pipeline outputs (generated; not source)
 artifacts/
 
+# Static site build output (rebuilt by CI for GitHub Pages)
+site/
+
 # Logs
 logs/*.log
 
