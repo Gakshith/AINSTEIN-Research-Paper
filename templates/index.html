@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}AINSTEIN — Dashboard{% endblock %}
+
+{% block content %}
+<section class="hero fade-in">
+  <span class="eyebrow">● Evaluation Dashboard</span>
+  <h1>Can an AI <span class="grad">rediscover</span> the ideas behind real research papers?</h1>
+  <p class="lead">
+    AINSTEIN generalizes a paper's abstract into a method-agnostic problem, has an AI invent a
+    solution, critiques it, and scores it against the paper's own approach. Explore how well it does
+    across conference tiers and against simple baselines.
+  </p>
+</section>
+
+{% if not available %}
+<section class="empty fade-in">
+  <div class="ico">📊</div>
+  <h2>No evaluation results yet</h2>
+  <p>
+    Run the batch evaluation to populate this dashboard, or try a single paper live.
+    Once results exist in <code>artifacts/evaluation/</code> the charts and tables appear here
+    automatically.
+  </p>
+  <p><code>python evaluation_result.py</code></p>
+  <a class="btn primary" href="/demo">Try the live demo →</a>
+</section>
+{% else %}
+<section class="stats" id="statCards"></section>
+
+<section class="section reveal">
+  <h2>Performance by conference tier</h2>
+  <p class="hint">Higher-tier papers (Oral) are harder problems — how does success scale?</p>
+  <div class="grid-2">
+    <div class="card"><h3>Success &amp; rediscovery by tier</h3><div class="chart-box"><canvas id="tierChart"></canvas></div></div>
+    <div class="card"><h3>Judge agreement by tier</h3><div class="chart-box"><canvas id="judgeChart"></canvas></div></div>
+  </div>
+</section>
+
+<section class="section reveal">
+  <h2>Main model vs. baselines</h2>
+  <p class="hint">Baselines (problem restatement, keyword template, abstract copy) are the sanity floor.</p>
+  <div class="card"><h3>Relaxed success rate by method</h3><div class="chart-box"><canvas id="baselineChart"></canvas></div></div>
+</section>
+
+<section class="section reveal">
+  <h2>Per-paper results</h2>
+  <p class="hint">Search by title, filter by tier, and click a row for the full breakdown.</p>
+  <div class="toolbar">
+    <input class="input" id="search" placeholder="Search paper title…" />
+    <select class="select" id="tierFilter">
+      <option value="">All tiers</option>
+      <option value="Oral">Oral</option>
+      <option value="Spotlight">Spotlight</option>
+      <option value="Poster">Poster</option>
+    </select>
+  </div>
+  <div class="card" style="padding:8px 8px;">
+    <table class="data">
+      <thead>
+        <tr><th>Title</th><th>Tier</th><th>Success</th><th>Rediscovery</th><th>Judge agree</th><th>Token F1</th></tr>
+      </thead>
+      <tbody id="paperRows"></tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if available %}<script>AINSTEIN.initDashboard();</script>{% endif %}
+{% endblock %}

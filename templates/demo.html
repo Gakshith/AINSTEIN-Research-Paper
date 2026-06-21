@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}AINSTEIN — Live Demo{% endblock %}
+
+{% block content %}
+<section class="hero fade-in">
+  <span class="eyebrow">▶ Live Pipeline</span>
+  <h1>Run the <span class="grad">full pipeline</span> on a single paper</h1>
+  <p class="lead">
+    Pick a paper from the ingested dataset and watch AINSTEIN generalize, solve, critique, and
+    evaluate it in real time. Each stage updates as it completes.
+  </p>
+</section>
+
+{% if not hf_token_configured %}
+<section class="empty fade-in">
+  <div class="ico">🔑</div>
+  <h2>Live demo needs a HuggingFace token</h2>
+  <p>
+    The pipeline calls HuggingFace inference endpoints (<code>deepseek-ai/DeepSeek-R1</code>).
+    Set <code>HUGGINGFACEHUB_API_TOKEN</code> in your environment or <code>.env</code> file, then
+    restart the server to enable live runs. You can still explore precomputed results on the
+    dashboard.
+  </p>
+  <a class="btn primary" href="/">← Back to dashboard</a>
+</section>
+{% else %}
+<section class="section">
+  <div class="card">
+    <div class="toolbar" style="margin-bottom:0;">
+      <input class="input" id="rowIndex" type="number" min="0" value="0" placeholder="Row index (0-based)" />
+      <input class="input" id="paperId" placeholder="…or paper_id (optional)" />
+      <button class="btn primary" id="runBtn">Run pipeline</button>
+    </div>
+    <p class="hint" id="runHint" style="margin:14px 0 0;">Select a paper by row index or paper id, then click Run.</p>
+  </div>
+</section>
+
+<section class="section" id="progressSection" style="display:none;">
+  <h2>Pipeline progress</h2>
+  <div class="stage-list" id="stageList"></div>
+</section>
+
+<section class="section" id="resultSection" style="display:none;">
+  <h2>Result</h2>
+  <div id="resultBox"></div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if hf_token_configured %}<script>AINSTEIN.initDemo();</script>{% endif %}
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}{{ paper.title or paper.paper_id }} — AINSTEIN{% endblock %}
+
+{% block content %}
+{% set tier = (paper.tier or '')|string %}
+<section class="section fade-in" style="padding-top:44px;">
+  <a href="/" style="color:var(--text-dim);font-size:14px;">← Back to dashboard</a>
+  <h1 style="font-size:clamp(26px,3.4vw,42px);margin:18px 0 16px;line-height:1.1;">{{ paper.title or paper.paper_id }}</h1>
+  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+    {% if tier %}<span class="chip chip-{{ tier|lower }}">{{ tier }}</span>{% endif %}
+    {% if paper.success_rate_relaxed %}
+      <span class="badge ok"><span class="dot"></span>Solved (relaxed)</span>
+    {% else %}
+      <span class="badge no"><span class="dot"></span>Not solved</span>
+    {% endif %}
+    <span style="color:var(--text-faint);font-size:13px;">Paper ID: {{ paper.paper_id }}</span>
+  </div>
+</section>
+
+<section class="section reveal">
+  <h2>Problem statement</h2>
+  <p class="hint">The method-agnostic problem AINSTEIN derived from this paper's abstract.</p>
+  <div class="panel"><div class="body">{{ paper.problem_statement or "—" }}</div></div>
+</section>
+
+<section class="section reveal">
+  <h2>Solutions &amp; verdicts</h2>
+  <div class="sol-grid">
+    <div class="panel">
+      <h4>AI-generated solution</h4>
+      <div class="body">{{ paper.model_solution or "—" }}</div>
+    </div>
+    <div class="panel">
+      <h4>Judge verdicts</h4>
+      <div class="body" style="white-space:normal;">
+        <p style="margin:0 0 10px;"><strong>Judge 1</strong> · feasible:
+          {{ "✓" if paper.judge_1_feasible_and_complete else "✕" }} ·
+          rediscovery: {{ "✓" if paper.judge_1_rediscovery else "✕" }} ·
+          novel: {{ "✓" if paper.judge_1_novel_and_valid else "✕" }}</p>
+        <p style="color:var(--text-dim);margin:0 0 16px;">{{ paper.judge_1_justification or "" }}</p>
+        <p style="margin:0 0 10px;"><strong>Judge 2</strong> · feasible:
+          {{ "✓" if paper.judge_2_feasible_and_complete else "✕" }} ·
+          rediscovery: {{ "✓" if paper.judge_2_rediscovery else "✕" }} ·
+          novel: {{ "✓" if paper.judge_2_novel_and_valid else "✕" }}</p>
+        <p style="color:var(--text-dim);margin:0;">{{ paper.judge_2_justification or "" }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal">
+  <h2>Similarity to the paper's approach</h2>
+  <p class="hint">How close is the generated solution to the paper's own approach, lexically?</p>
+  <div class="card" id="metricBars"></div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  AINSTEIN.renderMetricBars("metricBars", {
+    "Token F1": {{ (paper.token_f1 or 0)|float }},
+    "Token Jaccard": {{ (paper.token_jaccard or 0)|float }},
+    "Keyword overlap": {{ (paper.keyword_overlap or 0)|float }},
+    "Length ratio": {{ (paper.length_ratio or 0)|float }},
+    "Sequence similarity": {{ (paper.sequence_similarity or 0)|float }}
+  });
+</script>
+{% endblock %}

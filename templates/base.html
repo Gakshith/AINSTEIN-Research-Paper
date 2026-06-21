@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AINSTEIN — assessing whether AI can rediscover the ideas behind real research papers. An evaluation dashboard and live pipeline." />
+  <title>{% block title %}AINSTEIN — AI Research Solutions{% endblock %}</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Cpath d='M9 23 16 8l7 15h-3.2l-1.2-2.7h-5.2L11 23H9Zm5-5.3h4L16 13l-2 4.7Z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/static/css/theme.css?v=4" />
+  <script>
+    // Apply theme before first paint to avoid a flash. Saved choice wins,
+    // otherwise follow the OS preference; default is light.
+    (function () {
+      try {
+        var saved = localStorage.getItem("ainstein-theme");
+        var t = saved || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="/">
+        <span class="logo" aria-hidden="true">
+          <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="var(--brand)"></rect>
+            <path d="M9 23 16 8l7 15h-3.2l-1.2-2.7h-5.2L11 23H9Zm5-5.3h4L16 13l-2 4.7Z" fill="#fff"></path>
+          </svg>
+        </span>
+        <span class="name">
+          <strong>AINSTEIN</strong>
+          <small>AI-Generated Research Solutions</small>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="/" data-nav="dashboard">Dashboard</a>
+        <a href="/demo" data-nav="demo">Live Demo</a>
+      </div>
+      <div class="nav-spacer"></div>
+      <button class="theme-toggle" id="themeToggle" title="Toggle light / dark" aria-label="Toggle light or dark theme">◐</button>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong style="color:var(--text-dim);">AINSTEIN</strong> · Assessing the Feasibility of
+      AI-Generated Approaches to Research Problems.<br />
+      Research pipeline → evaluation dashboard. Built with FastAPI · Chart.js.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="/static/js/app.js?v=3"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
